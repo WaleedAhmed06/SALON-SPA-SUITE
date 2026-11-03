@@ -1,0 +1,18 @@
+export const staffFields = [
+  "name",
+  "image",
+  "email",
+  "phone",
+  "designation",
+  "branch",
+  "services",
+  "joined",
+  "start",
+  "end",
+  "breakStart",
+  "breakEnd",
+  "off",
+  "commission",
+  "salary",
+  "status",
+];

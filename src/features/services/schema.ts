@@ -1,0 +1,17 @@
+export const servicesFields = [
+  "name",
+  "category",
+  "description",
+  "image",
+  "duration",
+  "price",
+  "discount",
+  "commission",
+  "staff",
+  "branches",
+  "resources",
+  "instructions",
+  "consumedProduct",
+  "consumedQuantity",
+  "status",
+];

@@ -1,0 +1,43 @@
+import { type Role } from "@/types";
+export const access: Record<Role, string[]> = {
+  admin: [
+    "Dashboard",
+    "Appointments",
+    "Branches",
+    "Services",
+    "Staff",
+    "Customers",
+    "Billing & POS",
+    "Commissions",
+    "Memberships",
+    "Inventory",
+    "Suppliers",
+    "Expenses",
+    "Reports",
+    "Notifications",
+  ],
+  receptionist: [
+    "Dashboard",
+    "Appointments",
+    "Customers",
+    "Services",
+    "Billing & POS",
+    "Notifications",
+  ],
+  staff: [
+    "Dashboard",
+    "Appointments",
+    "Services",
+    "Schedule",
+    "Commissions",
+    "Notifications",
+  ],
+  customer: [
+    "Dashboard",
+    "Appointments",
+    "Services",
+    "Memberships",
+    "My Profile",
+    "Notifications",
+  ],
+};
