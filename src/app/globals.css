@@ -178,32 +178,18 @@ h3 {
   z-index: 30;
 }
 .brand {
-  display: flex;
-  gap: 11px;
-  align-items: center;
-  margin: 0 12px 33px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 0 28px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #ffffff;
+  flex-shrink: 0;
 }
-.brandmark {
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: grid;
-  place-items: center;
-}
-.brand strong {
-  font-family: Georgia, serif;
-  font-size: 25px;
-  letter-spacing: 4px;
-  font-weight: 400;
-}
-.brand small {
-  font-size: 8px;
-  letter-spacing: 2px;
+.brand img {
   display: block;
-  color: var(--muted);
-  margin-top: 4px;
+  width: 100%;
+  height: auto;
 }
 .navgroup {
   font-size: 9px;

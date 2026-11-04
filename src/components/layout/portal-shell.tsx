@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { Modules } from "@/components/layout/module-router";
 import { Assistant } from "@/features/chatbot/components/assistant";
 
 import {
-  Scissors,
   Bell,
   Sun,
   Moon,
@@ -379,16 +379,17 @@ export default function Home({
 function Brand() {
   return (
     <div className="brand">
-      <div className="brandmark">
-        <Scissors size={19} />
-      </div>
-      <div>
-        <strong>maison</strong>
-        <small>SALON & SPA SUITE</small>
-      </div>
+      <Image
+        src="/processiqtech.png"
+        alt="ProcessIQTech"
+        width={923}
+        height={207}
+        priority
+      />
     </div>
   );
 }
+
 function Module(props: {
   page: string;
   role: Role;
