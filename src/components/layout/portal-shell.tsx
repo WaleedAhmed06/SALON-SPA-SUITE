@@ -380,7 +380,7 @@ function Brand() {
   return (
     <div className="brand">
       <Image
-        src="/processiqtech.png"
+        src="https://processiqtech.com/assets/logo1-B0hYff3J.png"
         alt="ProcessIQTech"
         width={923}
         height={207}
